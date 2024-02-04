@@ -24,14 +24,12 @@ npm init -y
 Установите Playwright с помощью npm, что также автоматически установит браузеры, необходимые для тестирования:
 
 ```
-npm i -D @types/node
-npm i -D playwright
-npm i -D @playwright/test
+npm i -D @types/node playwright @playwright/test
 ```
 
 ### Шаг 4: Создание тестового файла
 
-1. Создайте файл с тестами `tests/basic.test.ts`.
+1. Создайте файл с тестами `tests/basic.spec.ts`.
 2. Откройте этот файл в вашем любимом редакторе кода и добавьте следующий тест:
 
 ```ts
