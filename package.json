@@ -1,0 +1,28 @@
+{
+  "name": "playwright-lesson-1-roslovets",
+  "version": "1.0.0",
+  "description": "Добро пожаловать в первый урок курса \"Тестирование с Playwright\"! Playwright — это мощный инструмент для автоматизации тестирования веб-приложений, который поддерживает все современные веб-браузеры. В этом уроке мы рассмотрим, как создать новый проект с Playwright, настроить окружение и подготовить всё необходимое для начала тестирования.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inzhenerka/playwright-lesson-1-roslovets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inzhenerka/playwright-lesson-1-roslovets/issues"
+  },
+  "homepage": "https://github.com/Inzhenerka/playwright-lesson-1-roslovets#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16",
+    "playwright": "^1.41.2"
+  }
+}
