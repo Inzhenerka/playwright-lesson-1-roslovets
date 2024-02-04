@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "Project created",
+      "setup": "",
+      "run": "[ -f \"package.json\" ] && exit 0 || echo \"Error: Файл package.json не найден\" && exit 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
