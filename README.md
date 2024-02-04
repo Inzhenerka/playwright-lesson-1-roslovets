@@ -24,14 +24,12 @@ npm init -y
 Установите Playwright с помощью npm, что также автоматически установит браузеры, необходимые для тестирования:
 
 ```
-npm i -D @types/node
-npm i -D playwright
-npm i -D @playwright/test
+npm i -D @types/node playwright @playwright/test
 ```
 
 ### Шаг 4: Создание тестового файла
 
-1. Создайте файл с тестами `tests/basic.test.ts`.
+1. Создайте файл с тестами `tests/basic.spec.ts`.
 2. Откройте этот файл в вашем любимом редакторе кода и добавьте следующий тест:
 
 ```ts
@@ -114,3 +112,17 @@ npx playwright test
 ## Заключение
 
 Поздравляем с созданием вашего первого проекта на Playwright! Вы успешно установили окружение и запустили свой первый тест. Это важный первый шаг в изучении автоматизации тестирования веб-приложений с помощью Playwright. Продолжайте изучать возможности Playwright, экспериментируйте с различными типами тестов и улучшайте свои навыки автоматизации.
+
+## НАСТРОЙКА ТЕСТА
+
+Установка
+
+```
+npm i && npx playwright install && npx playwright install-deps > /dev/null
+```
+
+Запуск
+
+```
+PW_TEST_HTML_REPORT_OPEN=never npx playwright test
+```
