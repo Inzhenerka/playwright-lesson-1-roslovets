@@ -1,3 +1,2 @@
-npm i -D @types/node
-npm i -D playwright
-npm i -D @playwright/test
+npm i -D @types/node playwright @playwright/test
+npx playwright install
