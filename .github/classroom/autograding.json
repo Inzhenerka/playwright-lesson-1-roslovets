@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Run tests",
-      "setup": "./setup.sh",
-      "run": "./run_tests.sh",
+      "setup": "npm i && npx playwright install && npx playwright install-deps > /dev/null",
+      "run": "PW_TEST_HTML_REPORT_OPEN=never npx playwright test",
       "input": "",
       "output": "",
       "comparison": "exact",
